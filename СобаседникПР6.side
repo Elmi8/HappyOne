@@ -1,0 +1,434 @@
+{
+  "id": "ab82f483-b7c2-4a21-a2e2-0042710be128",
+  "version": "2.0",
+  "name": "СобаседникПР6",
+  "url": "https://guru.qahacking.ru/",
+  "tests": [{
+    "id": "3c0bcda1-bab4-4f94-8836-0544dc28c546",
+    "name": "Кликабельность кнопок в хедере",
+    "commands": [{
+      "id": "f21d28dc-ea96-4d96-ad7a-0bb69c8fce9f",
+      "comment": "",
+      "command": "open",
+      "target": "https://guru.qahacking.ru/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5fc200a3-53b4-4888-a00a-094d3d691070",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "530x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e18c657-5fbf-493c-91fc-8967bf632421",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uk-navbar-toggle",
+      "targets": [
+        ["css=.uk-navbar-toggle", "css:finder"],
+        ["xpath=//a[contains(@href, '#tm-mobile')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07dd2390-c51d-44b6-8658-56e47cd572e3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=О нас",
+      "targets": [
+        ["linkText=О нас", "linkText"],
+        ["css=.uk-nav-primary > li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'О нас')])[2]", "xpath:link"],
+        ["xpath=//div[@id='module-menu-mobile']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/index.php/about')])[4]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "362450a8-6d30-4ddf-bc1f-11f712eefc65",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uk-navbar-container > .uk-navbar img",
+      "targets": [
+        ["css=.uk-navbar-container > .uk-navbar img", "css:finder"],
+        ["xpath=//img[@alt='СОБАСЕДНИК']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a10f0f40-fbc4-46cc-a596-95db28d1d742",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uk-navbar-toggle",
+      "targets": [
+        ["css=.uk-navbar-toggle", "css:finder"],
+        ["xpath=//a[contains(@href, '#tm-mobile')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "230d9b97-55bf-430b-bd89-23ce8e74d37e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Блог Джесси",
+      "targets": [
+        ["linkText=Блог Джесси", "linkText"],
+        ["css=.uk-nav-primary > li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Блог Джесси')])[3]", "xpath:link"],
+        ["xpath=//div[@id='module-menu-mobile']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/index.php/news')])[8]", "xpath:href"],
+        ["xpath=//div/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d29e24dc-3aae-4089-a217-02e883c0ae5d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uk-navbar-container > .uk-navbar img",
+      "targets": [
+        ["css=.uk-navbar-container > .uk-navbar img", "css:finder"],
+        ["xpath=//img[@alt='СОБАСЕДНИК']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66360c1a-42e4-47b4-8403-8e272c8e734e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uk-navbar-toggle-icon > svg",
+      "targets": [
+        ["css=.uk-navbar-toggle-icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "29b3f494-89bc-4cae-8d1a-17ebb17c216b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Магазин",
+      "targets": [
+        ["linkText=Магазин", "linkText"],
+        ["css=.uk-nav > .uk-parent > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Магазин')])[2]", "xpath:link"],
+        ["xpath=//div[@id='module-menu-mobile']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/index.php/magazin')])[4]", "xpath:href"],
+        ["xpath=//div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc1f70ba-9d37-4c3d-91e1-6122077dd65b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uk-navbar-toggle-icon > svg",
+      "targets": [
+        ["css=.uk-navbar-toggle-icon > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d46c3ca5-b018-4d88-af26-cea5e6711ef6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Статьи",
+      "targets": [
+        ["linkText=Статьи", "linkText"],
+        ["css=.uk-nav > li:nth-child(5) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Статьи')])[2]", "xpath:link"],
+        ["xpath=//div[@id='module-menu-mobile']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://qahacking.ru/')])[2]", "xpath:href"],
+        ["xpath=//div/div/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win3788",
+      "windowTimeout": 2000
+    }, {
+      "id": "46412b0c-a1ea-4662-b586-0ca0ba2c29be",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "dc1cf0d6-3106-4399-8b14-7404325d8c43",
+    "name": "Оформление заказа",
+    "commands": [{
+      "id": "1a20af05-3824-4d8f-9043-d2b37b492846",
+      "comment": "",
+      "command": "open",
+      "target": "https://guru.qahacking.ru/",
+      "targets": [],
+      "value": "https://guru.qahacking.ru/"
+    }, {
+      "id": "4fee2d87-4696-40e7-960a-87e6fc9ff285",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "530x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ef5a7fc-ed1f-4701-8a67-529f71775830",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uk-navbar-toggle-icon > svg",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "380b3d5c-b699-415e-92d0-4b2b4819e84a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Магазин",
+      "targets": [
+        ["linkText=Магазин", "linkText"],
+        ["css=.uk-nav > .uk-parent > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Магазин')])[2]", "xpath:link"],
+        ["xpath=//div[@id='module-menu-mobile']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/index.php/magazin')])[4]", "xpath:href"],
+        ["xpath=//div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3100b39b-6ff8-4caf-969d-dcbd8fc2a102",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Купить",
+      "targets": [
+        ["linkText=Купить", "linkText"],
+        ["css=.productitem_4 .btn-success", "css:finder"],
+        ["xpath=//a[contains(text(),'Купить')]", "xpath:link"],
+        ["xpath=//div[@id='comjshop_list_product']/div/div/div/div/div[3]/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/magazin/korzina/add?category_id=1&product_id=4')]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Купить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ededfe27-0157-4bdc-908c-013e34a09566",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Оформить заказ",
+      "targets": [
+        ["linkText=Оформить заказ", "linkText"],
+        ["css=.btn-arrow-right", "css:finder"],
+        ["xpath=//a[contains(text(),'Оформить заказ')]", "xpath:link"],
+        ["xpath=//div[@id='checkout']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/component/jshopping/checkout/step2?Itemid=0')]", "xpath:href"],
+        ["xpath=//div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Оформить заказ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "255fdb2f-9007-4c75-82c1-9bb2a63d52da",
+      "comment": "",
+      "command": "click",
+      "target": "id=f_name",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe77825e-871e-40b3-a8f9-f4ff8ad61f0e",
+      "comment": "",
+      "command": "type",
+      "target": "id=f_name",
+      "targets": [],
+      "value": "Maria"
+    }, {
+      "id": "11ab40cc-4bef-483e-ad3b-c26072520494",
+      "comment": "",
+      "command": "click",
+      "target": "id=l_name",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed52673a-4b12-4246-b30a-806298c2f7c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=l_name",
+      "targets": [],
+      "value": "Ivanova"
+    }, {
+      "id": "50f6b4db-0719-483b-a1aa-cfc970940189",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78bbc99c-11c2-4619-aa21-945a9cc4d6e5",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [],
+      "value": "mariaivanova@mail.com"
+    }, {
+      "id": "6b6af178-9323-4804-b2ef-137ee4400c04",
+      "comment": "",
+      "command": "click",
+      "target": "id=street",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a2ed69a-452f-4d47-b9fe-2d5d167827f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=street",
+      "targets": [],
+      "value": "Lenina,10"
+    }, {
+      "id": "3aa67cc4-6830-4d1e-a362-4409e4d4b42e",
+      "comment": "",
+      "command": "click",
+      "target": "id=zip",
+      "targets": [
+        ["id=zip", "id"],
+        ["name=zip", "name"],
+        ["css=#zip", "css:finder"],
+        ["xpath=//input[@id='zip']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/div/form/div/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d28bb8fe-dcab-4b25-8846-0091e7979e09",
+      "comment": "",
+      "command": "type",
+      "target": "id=zip",
+      "targets": [
+        ["id=zip", "id"],
+        ["name=zip", "name"],
+        ["css=#zip", "css:finder"],
+        ["xpath=//input[@id='zip']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/div/form/div/div[5]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/input", "xpath:position"]
+      ],
+      "value": "634015"
+    }, {
+      "id": "5492b351-c302-47df-8654-f8ec13bd504e",
+      "comment": "",
+      "command": "click",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["name=city", "name"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/div/form/div/div[6]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa42ec2d-c11c-409f-ae63-34720c94b0d2",
+      "comment": "",
+      "command": "type",
+      "target": "id=city",
+      "targets": [
+        ["id=city", "id"],
+        ["name=city", "name"],
+        ["css=#city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/div/form/div/div[6]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Tomsk"
+    }, {
+      "id": "f3b1621a-eed6-4419-9277-def4fecbb59b",
+      "comment": "",
+      "command": "click",
+      "target": "id=state",
+      "targets": [
+        ["id=state", "id"],
+        ["name=state", "name"],
+        ["css=#state", "css:finder"],
+        ["xpath=//input[@id='state']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/div/form/div/div[7]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "076dae73-c34a-43e2-9269-8bdddfa1612e",
+      "comment": "",
+      "command": "click",
+      "target": "id=country",
+      "targets": [
+        ["id=country", "id"],
+        ["name=country", "name"],
+        ["css=#country", "css:finder"],
+        ["xpath=//select[@id='country']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/div/form/div/div[8]/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15964a49-8e08-405d-9cf4-00a1621cf841",
+      "comment": "",
+      "command": "select",
+      "target": "id=country",
+      "targets": [],
+      "value": "label=Poland"
+    }, {
+      "id": "aeb615ca-dd3a-4282-bd62-7a84a78f4e17",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/div/form/div/div[9]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cdd1b13-ccad-4e49-acb6-122326919083",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/div/form/div/div[9]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div[2]/input", "xpath:position"]
+      ],
+      "value": "89994561221"
+    }, {
+      "id": "d08fb3c9-a17e-4253-bc0a-cb98ed9632e3",
+      "comment": "",
+      "command": "click",
+      "target": "name=next",
+      "targets": [
+        ["name=next", "name"],
+        ["css=.button", "css:finder"],
+        ["xpath=//input[@name='next']", "xpath:attributes"],
+        ["xpath=//div[@id='comjshop']/div/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d6ece32-ff09-4f68-bae2-0c4aae1d73e6",
+      "comment": "",
+      "command": "pause",
+      "target": "5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c70cf486-4401-4423-9eca-25ccbe2be92b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a7afac49-a507-4d41-b5e0-e47d669422a8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://guru.qahacking.ru/"],
+  "plugins": []
+}
